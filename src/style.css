@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #272626;
+  background-image: linear-gradient(62deg, #272626 20%, #131301 100%);
+  /* background-color: #130f40;
+  background-image: linear-gradient(62deg, #130f40 0%, #301f3f 100%); */
+}
+body {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  /* z-index: 1; */
+  /* opacity: 0.8; */
+  /* mix-blend-mode: color-burn; */
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+    circle at center,
+    rgb(0, 0, 0),
+    rgba(151, 156, 116, 0.5)
+  );
+
+  opacity: 0.3;
+  transition: all 1s;
+  /* mix-blend-mode: difference; */
+}
+
+.end {
+  height: 32vh;
+  opacity: 0.7;
+  transition: all 2s;
+}
+
+h1 {
+  font-size: 6rem;
+  color: rgb(228, 180, 158);
+  text-transform: uppercase;
+}
+
+.special {
+  color: lightpink;
+  text-shadow: 4px 4px 2px lightseagreen;
+}
