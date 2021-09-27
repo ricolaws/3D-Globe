@@ -4,6 +4,8 @@
    A three dimensional model of the earth with a GUI to control it's appearance.
 </div>
 
+![Screen Shot 2021-09-27 at 1 05 02 PM](https://user-images.githubusercontent.com/41934323/134977638-ce01dbf5-5c1f-4316-a5a0-ca8b053c6076.png)
+
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
