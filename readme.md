@@ -1,5 +1,8 @@
-# Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+<h1 align="center">3D Globe</h1>
+
+<div align="center">
+   A three dimensional model of the earth with a GUI to control it's appearance.
+</div>
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
@@ -15,3 +18,7 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+three.js starter courtesy of Bruno Simon of https://threejs-journey.xyz/
+
+
+- GitHub [@ricolaws](https://github.com/ricolaws)
